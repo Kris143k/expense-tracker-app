@@ -85,6 +85,17 @@ function Login() {
             Login
           </button>
 
+          <p className="mt-4 text-center">
+            Don't have an account?
+
+            <span
+              className="text-blue-400 cursor-pointer ml-2"
+              onClick={() => window.location.href = "/register"}
+            >
+              Signup
+            </span>
+          </p>
+
         </form>
 
       </div>
