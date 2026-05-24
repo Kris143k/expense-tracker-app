@@ -90,7 +90,7 @@ function Login() {
 
             <span
               className="text-blue-400 cursor-pointer ml-2"
-              onClick={() => window.location.href = "/register"}
+              onClick={() => window.location.href = "/signup"}
             >
               Signup
             </span>
